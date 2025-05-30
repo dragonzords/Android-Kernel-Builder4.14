@@ -7,8 +7,8 @@
       "device": "sunfish",
       "defconfig": "sunfish_defconfig"
     },
-      "withKernelSU": true,
-      "toolchains": [
+    "withKernelSU": true,
+    "toolchains": [
       {
         "repo": "https://github.com/Akitlove/android-kernel-tools",
         "branch": "clang13",
