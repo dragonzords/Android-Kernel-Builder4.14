@@ -1,20 +1,21 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "miku-KernelSU",
+      "name": "stock-sunfish",
       "repo": "https://android.googlesource.com/kernel/msm",
       "branch": "android-msm-sunfish-4.14-android13-qpr3",
-      "device": "sunfish"
+      "device": "sunfish",
+      "defconfig": "sunfish_defconfig"
     },
     "withKernelSU": false,
-      "toolchains": [
-  {
-    "repo": "https://github.com/kdrag0n/proton-clang",
-    "branch": "master",
-    "name": "proton-clang",
-    "binPath": ["./bin"]
-  }
-],
-  "ccache": true,
+    "toolchains": [
+      {
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
+        "name": "proton-clang",
+        "binPath": ["bin"]
+      }
+    ],
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -34,4 +35,11 @@
         "LLVM_DIS": "proton-clang/bin/llvm-dis"
       }
     },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/crimera/AnyKernel3",
+      "branch": "master"
+    }
+  }
 ]
