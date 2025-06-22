@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "stock-sunfish",
-      "repo": "https://android.googlesource.com/kernel/msm",
-      "branch": "android-msm-sunfish-4.14-android13-qpr3",
-      "device": "sunfish",
-      "defconfig": "sunfish_defconfig"
+      "name": "kernel_xiaomi_begonia",
+      "repo": "dragonzords/kernel_xiaomi_begonia",
+      "branch": "15",
+      "device": "begonia",
+      "defconfig": "begonia_user_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -38,7 +38,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/Akitlove/AnyKernel3",
+      "repo": "https://github.com/dragonzords/AnyKernel.git",
       "branch": "master"
     }
   }
