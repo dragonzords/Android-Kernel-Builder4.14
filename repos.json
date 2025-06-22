@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_xiaomi_",
+      "name": "kernel_xiaomi_chime",
       "repo": "https://github.com/dragonzords/kernel_xiaomi_chime.git",
       "branch": "main",
       "device": "chime",
