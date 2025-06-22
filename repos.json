@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_xiaomi_begonia",
-      "repo": "https://github.com/dragonzords/kernel_xiaomi_begonia.git",
-      "branch": "16",
-      "device": "begonia",
-      "defconfig": "begonia_user_defconfig"
+      "name": "kernel_xiaomi_chime",
+      "repo": "https://github.com/dragonzords/kernel_xiaomi_chime.git",
+      "branch": "main",
+      "device": "chime",
+      "defconfig": "vendor/chime_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -38,7 +38,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/dragonzords/AnyKernel.git",
+      "repo": "https://github.com/dragonzords/AnyKernel3.git",
       "branch": "master"
     }
   }
