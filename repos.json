@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "kernel_xiaomi_begonia",
       "repo": "https://github.com/dragonzords/kernel_xiaomi_begonia.git",
-      "branch": "15",
+      "branch": "16",
       "device": "begonia",
       "defconfig": "begonia_user_defconfig"
     },
