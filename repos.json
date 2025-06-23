@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_xiaomi_mt6785",
-      "repo": "https://github.com/dragonzords/kernel_xiaomi_mt6785.git",
-      "branch": "fifteen-fixed-ksu",
-      "device": "begonia",
-      "defconfig": "begonia_user_defconfig"
+      "name": "kernel_xiaomi_chime",
+      "repo": "https://github.com/dragonzords/kernel_xiaomi_chime.git",
+      "branch": "ursinia",
+      "device": "chime",
+      "defconfig": "vendor/xiaomi/bengal_defconfig vendor/xiaomi/chime.config"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/Akitlove/android-kernel-tools",
@@ -38,7 +38,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/dragonzords/AnyKernel.git",
+      "repo": "https://github.com/dragonzords/AnyKernel3.git",
       "branch": "master"
     }
   }
