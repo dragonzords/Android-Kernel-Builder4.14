@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "kernel_xiaomi_mt6785",
       "repo": "https://github.com/dragonzords/kernel_xiaomi_mt6785.git",
-      "branch": "openela",
+      "branch": "fifteen-fixed-ksu",
       "device": "begonia",
       "defconfig": "begonia_user_defconfig"
     },
